@@ -13,8 +13,17 @@ public class SayisalLoto {
     public static void main(String[] args) {
         SayisalLoto loto = new SayisalLoto();
 
-        for (int i = 1; i <= 10; i++) {
-            System.out.println(loto.sayiGetir(49));
+        //6'lı bir array oluşturduk
+        int sayilar[] = new int[6];
+
+        //döngüyle array'i dolduralım
+        for (int i = 0; i < 6; i++) {
+            sayilar[i] = loto.sayiGetir(49);
+        }
+
+        //array'i yazdır
+        for (int i = 0; i < 6; i++) {
+            System.out.println(sayilar[i]);
         }
     }
 }
