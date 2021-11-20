@@ -2,7 +2,7 @@ package com.bilgeadam.sayisalloto;
 
 import java.util.Random;
 
-public class SayisalLotoV1 {
+public class SayisalLoto_v1 {
 
     public static void main(String[] args) {
 
